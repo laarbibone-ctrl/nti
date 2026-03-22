@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتحاد تانفاليت لجمعيات أوكنز</title>
+    <style>
+        /* إعدادات عامة */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000000;
+        }
+
+        /* شريط المعلومات العلوي */
+        .top-info {
+            background-color: #68ad5f;
+            color: rgb(39, 8, 8);
+            padding: 8px 50px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        /* شريط التنقل */
+        header {
+            background-color: #004664;
+            color: white;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        /* تصميم الشعار الصغير (الذي سألت عنه) */
+        .logo-img {
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .fb-button {
+            border: 2px solid white;
+            padding: 6px 18px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .fb-button:hover {
+            background-color: white;
+            color: #1a7196;
+        }
+
+        /* القسم الرئيسي (البطل - Hero) */
+        .hero {
+            position: relative;
+            height: 85vh;
+            /* استبدل laarbi-bg.jpg باسم صورتك الكبيرة */
+            background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), 
+                        url('laarbi-bg.jpg') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            color: #1a7196;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .tifinagh {
+            font-size: 1.8em;
+            color: #444;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            color: #333;
+            max-width: 850px;
+            line-height: 1.8;
+            background: rgba(255,255,255,0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="top-info">
+        <div>union.tanfalit@gmail.com | 0666438411</div>
+        <div style="cursor: pointer;">اتصل بنا</div>
+    </div>
+
+    <header>
+        <a href="https://facebook.com" target="_blank" class="fb-button">فيسبوك</a>
+        
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">الخدمات</a></li>
+                <li><a href="#">الندوات</a></li>
+                <li><a href="#">الشهادات</a></li>
+                <li><a href="#">الاتصال بنا</a></li>
+            </ul>
+        </nav>
+
+        <div class="logo-section">
+            <span style="font-size: 1.2em; font-weight: bold;">اتحاد تانفاليت لجمعيات أوكنز</span>
+            <img src="laarbi-bg.jpg" alt="Logo" class="logo-img">
+        </div>
+    </header>
+
+    <main class="hero">
+        <h1>اتحاد تانفاليت لجمعيات أوكنز</h1>
+        <div class="tifinagh">ⵜⴰⵎⵓⵏⵜ ⵜⴰⵏⴼⴰⵍⵉⵜ ⵉⵎⵓⵍⵍⵉⵢⵏ ⵓⴽⵏⵣ</div>
+        
+        <p>
+            نحن في اتحاد تانفاليت لجمعيات أوكنز نعمل جاهدين على تحسين حياة الساكنة من خلال تقديم مجموعة متنوعة من الخدمات.
+            نهدف إلى تعزيز التعاون بين الجمعيات وتلبية احتياجات المجتمع المحلي.
+        </p>
+    </main>
+
+</body>
+</html>
